@@ -11,9 +11,9 @@ index b7dbdb6..ebcf0f4 100644
 -       url('#{$glyphicons-font-path}/glyphiconshalflings-regular.woff') format('woff'),
 -       url('#{$glyphicons-font-path}/glyphiconshalflings-regular.ttf') format('truetype'),
 -       url('#{$glyphicons-font-path}/glyphiconshalflings-regular.svg#glyphicons_halflingsregular') format('svg');
-+  src: url(font-path("#{$glyphicons-font-path}/glyphiconshalflings-regular.eot"));
-+  src: url(font-path("#{$glyphicons-font-path}/glyphiconshalflings-regular.eot?#iefix")) format('embedded-opentype'),
-+       url(font-path("#{$glyphicons-font-path}/glyphiconshalflings-regular.woff")) format('woff'),
-+       url(font-path("#{$glyphicons-font-path}/glyphiconshalflings-regular.ttf")) format('truetype'),
-+       url(font-path("#{$glyphicons-font-path}/glyphiconshalflings-regular.svg#glyphicons_halflingsregular")) format('svg');
++  src: url(asset-path("glyphiconshalflings-regular.eot"));
++  src: url(asset-path("glyphiconshalflings-regular.eot?#iefix")) format('embedded-opentype'),
++       url(asset-path("glyphiconshalflings-regular.woff")) format('woff'),
++       url(asset-path("glyphiconshalflings-regular.ttf")) format('truetype'),
++       url(asset-path("glyphiconshalflings-regular.svg#glyphicons_halflingsregular")) format('svg');
  }
